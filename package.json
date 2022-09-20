@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "postinstall": "npm run build",
     "build": "sass --style=compressed src/scss/style.scss src/css/style.css"
   },
   "devDependencies": {
