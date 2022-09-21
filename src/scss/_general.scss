@@ -226,8 +226,16 @@ body {
     }
   }
 
-  .container {
+  %centerer {
     max-width: lib.$content-width;
     margin: 0 auto;
+  }
+
+  .page-section {
+    @extend %centerer;
+  }
+
+  .container {
+    @extend %centerer;
   }
 }
