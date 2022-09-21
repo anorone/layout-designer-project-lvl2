@@ -20,10 +20,14 @@
 }
 
 .banner-section {
-  padding: 250px 0 200px;
+  padding: 200px 0;
   text-align: center;
 
   @include lib.bg-image("../images/banner.jpg", lib.$base-dark);
+
+  &__heading {
+    margin-top: 50px;
+  }
 
   &__text {
     margin: lib.base-x(2) 0;
@@ -44,7 +48,9 @@
   }
 
   .banner-section {
-    padding-top: 200px;
+    &__heading {
+      margin-top: 0;
+    }
 
     &__text {
       margin-top: lib.base-x(4);
