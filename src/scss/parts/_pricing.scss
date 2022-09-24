@@ -17,6 +17,8 @@
 .card {
   @include layout.align-center(column);
 
+  width: 100%;
+
   padding: {
     top: lib.base-x(2);
     right: lib.base-x(3);
