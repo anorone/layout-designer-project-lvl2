@@ -6,6 +6,6 @@
 Responsive layout (Mobile first)
 
 The web pages are available at:  
-[musbox.surge.sh](https://musbox.surge.sh)  
-[musbox.surge.sh/artist](https://musbox.surge.sh/artist.html)
+[layout-lvl2.surge.sh](https://layout-lvl2.surge.sh)  
+[layout-lvl2.surge.sh/artist](https://layout-lvl2.surge.sh/artist.html)
 
