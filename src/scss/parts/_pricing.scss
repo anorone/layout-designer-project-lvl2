@@ -29,7 +29,7 @@
   border-radius: 16px;
   text-align: center;
 
-  @include lib.bg-image(null, lib.$gray-dark);
+  @include lib.bg-image(null, null);
 
   &__name {
     margin-bottom: 200px;
