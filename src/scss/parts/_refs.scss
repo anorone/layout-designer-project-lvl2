@@ -21,6 +21,10 @@
     @include lib.link-reset;
   }
 
+  &__name {
+    align-self: stretch;
+  }
+
   &__image {
     order: -1;
     margin-bottom: 18px;
