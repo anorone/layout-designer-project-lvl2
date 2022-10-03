@@ -2,16 +2,10 @@
 @use "../lib/layout";
 
 .app-section {
-  &__content {
-    &::before {
-      display: block;
-      height: 278px;
-      margin-bottom: lib.base-x(2);
-
-      @include lib.bg-image("../images/iphone.png", lib.$base-dark, center, contain);
-
-      content: "";
-    }
+  &__image {
+    display: block;
+    margin: auto;
+    margin-bottom: lib.base-x(2);
   }
 
   &__text {
@@ -29,11 +23,12 @@
       @include layout.cols(2, 1fr) {
         column-gap: 50px;
       }
+    }
 
-      &::before {
-        order: 1;
-        margin: 0;
-      }
+    &__image {
+      order: 1;
+      justify-self: center;
+      margin: 0;
     }
 
     &__wrapper {
