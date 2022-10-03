@@ -22,7 +22,7 @@
 .artist-section {
   padding: 200px 0;
 
-  @include lib.bg-image("../images/Morten_Harket.jpg", lib.$gray-dark);
+  @include lib.bg-image("../images/Morten_Harket.jpg", null);
 
   &__heading {
     margin-top: lib.base-x(3);
