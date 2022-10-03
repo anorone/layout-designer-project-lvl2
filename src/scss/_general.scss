@@ -75,7 +75,7 @@
   border-radius: 5px;
   cursor: pointer;
 
-  @include lib.font-base(400, 13px, 1.5) {
+  @include lib.font-base(400, 12.8px, 1.5) {
     @include lib.link-reset($primary-color);
 
     text: {
