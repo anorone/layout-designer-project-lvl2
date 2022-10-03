@@ -20,11 +20,12 @@
 }
 
 .artist-section {
-  padding: 225px 0;
+  padding: 200px 0;
 
   @include lib.bg-image("../images/Morten_Harket.jpg", lib.$gray-dark);
 
   &__heading {
+    margin-top: lib.base-x(3);
     margin-bottom: lib.base-x(2);
   }
 
@@ -48,6 +49,10 @@
   }
 
   .artist-section {
-    padding-top: 250px;
+    padding-top: 200px;
+
+    &__heading {
+      margin-top: lib.base-x(6);
+    }
   }
 }
