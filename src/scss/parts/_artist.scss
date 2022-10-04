@@ -8,7 +8,7 @@
     @include layout.align-center;
 
     width: 200px;
-    margin-bottom: lib.base-x(3);
+    margin-bottom: 25px;
 
     &:last-child {
       margin-bottom: 0;
@@ -22,12 +22,12 @@
   @include lib.bg-image("../images/Morten_Harket.jpg", null);
 
   &__heading {
-    margin-top: lib.base-x(3);
-    margin-bottom: lib.base-x(2);
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 
   &__subscribers {
-    margin-bottom: lib.base-x(6);
+    margin-bottom: 50px;
   }
 }
 
