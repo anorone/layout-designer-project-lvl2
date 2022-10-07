@@ -20,6 +20,11 @@
     font-size: 18px;
     text-align: left;
   }
+
+  &__location {
+    display: block;
+    width: 100%;
+  }
 }
 
 .socials-list {
@@ -81,7 +86,7 @@
   }
 
   &__extra {
-    margin-top: lib.base-x(6);
+    margin-top: 78px;
     padding: lib.base-x(4) 0;
     border-top: 1px solid lib.$gray-light;
   }
@@ -101,6 +106,10 @@
       @include layout.cols(4, 1fr) {
         column-gap: 40px;
       }
+    }
+
+    &__extra {
+      margin-top: lib.base-x(6);
     }
 
     &__nav-item {
