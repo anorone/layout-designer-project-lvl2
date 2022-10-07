@@ -2,14 +2,6 @@
 @use "lib/lib";
 @use "lib/layout";
 
-.footer-chapter {
-  &__heading {
-    margin-bottom: lib.base-x(2);
-    font-size: 18px;
-    text-align: left;
-  }
-}
-
 .links-list {
   @include lib.list-reset;
 
@@ -18,6 +10,15 @@
 
   &__link {
     @include lib.link-reset(lib.$gray-light);
+  }
+}
+
+.footer-chapter {
+  &__heading {
+    margin-top: revert;
+    margin-bottom: lib.base-x(2);
+    font-size: 18px;
+    text-align: left;
   }
 }
 
