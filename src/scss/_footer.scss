@@ -71,7 +71,7 @@
     margin-top: 100px;
   }
 
-  padding-top: lib.base-x(6);
+  padding-top: 50px;
 
   background: {
     image: linear-gradient(89.75deg, lib.$blue 32.83%, lib.$brown 81.56%);
@@ -86,7 +86,7 @@
   }
 
   & hr {
-    margin-top: lib.base-x(6);
+    margin-top: 78px;
   }
 
   &__extra {
@@ -108,6 +108,10 @@
       @include layout.cols(4, 1fr) {
         column-gap: 40px;
       }
+    }
+
+    & hr {
+      margin-top: lib.base-x(6);
     }
 
     &__extra {
