@@ -91,6 +91,7 @@
 
   &__extra {
     padding: lib.base-x(4) 0;
+    padding-bottom: lib.base-x(5);
   }
 
   &__nav-item {
@@ -116,11 +117,15 @@
 
     &__extra {
       margin-top: 0;
+
+      & a {
+        padding: 0;
+      }
     }
 
     &__nav-item {
       margin: 0;
-      margin-right: lib.base-x(1);
+      margin-right: lib.base-x(2);
 
       &:first-child a {
         padding-left: 0;
