@@ -91,6 +91,10 @@
 
   &__extra {
     padding: lib.base-x(4) 0;
+
+    & nav {
+      margin-bottom: 9px;
+    }
   }
 
   &__nav-item {
