@@ -85,10 +85,12 @@
     margin-bottom: 30px;
   }
 
+  & hr {
+    margin-top: lib.base-x(6);
+  }
+
   &__extra {
-    margin-top: 78px;
     padding: lib.base-x(4) 0;
-    border-top: 1px solid lib.$gray-light;
   }
 
   &__nav-item {
@@ -109,7 +111,7 @@
     }
 
     &__extra {
-      margin-top: lib.base-x(6);
+      margin-top: 0;
     }
 
     &__nav-item {
