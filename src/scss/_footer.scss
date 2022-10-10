@@ -71,10 +71,12 @@
     margin-top: 100px;
   }
 
-  padding-top: lib.base-x(6);
-
   background: {
     image: linear-gradient(89.75deg, lib.$blue 32.83%, lib.$brown 81.56%);
+  }
+
+  &__main {
+    padding: 3rem 0;
   }
 
   &__chapters-list {
@@ -82,18 +84,14 @@
   }
 
   &__chapter {
-    margin-bottom: 30px;
-  }
-
-  & hr {
-    margin-top: 78px;
+    margin-bottom: 1rem;
   }
 
   &__extra {
     padding: lib.base-x(4) 0;
 
     & nav {
-      margin-bottom: 9px;
+      margin-bottom: 1rem;
     }
   }
 
@@ -112,10 +110,6 @@
       @include layout.cols(4, 1fr) {
         column-gap: 40px;
       }
-    }
-
-    & hr {
-      margin-top: lib.base-x(6);
     }
 
     &__extra {
