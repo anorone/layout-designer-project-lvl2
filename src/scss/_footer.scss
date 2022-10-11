@@ -84,7 +84,11 @@
   }
 
   &__chapter {
-    margin-bottom: 1rem;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 1rem;
+    }
   }
 
   &__extra {
@@ -110,6 +114,10 @@
       @include layout.cols(4, 1fr) {
         column-gap: 40px;
       }
+    }
+
+    &__chapter {
+      margin-bottom: 1rem;
     }
 
     &__extra {
