@@ -71,7 +71,7 @@
     $i: list.index($card-names, $name);
 
     &_type_#{$name} {
-      background-image: url("../images/subscribe_#{$i}.jpg");
+      background-image: url("../images/subscribe_#{$i}.png");
     }
   }
 }

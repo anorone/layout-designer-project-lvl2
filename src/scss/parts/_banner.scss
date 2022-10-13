@@ -23,7 +23,7 @@
   padding: 200px 0;
   text-align: center;
 
-  @include lib.bg-image("../images/banner.jpg", lib.$base-dark);
+  @include lib.bg-image("../images/banner.png", lib.$base-dark);
 
   &__heading {
     margin-top: 50px;
